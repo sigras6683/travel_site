@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body {
+    color: #202020;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #66AEE1;
+    width: auto;
+	height: auto;
+	
+  }
+
+#container {
+    width: 800px;
+    height: auto;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+header {
+    width: 800px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/header.png);
+}
+/*Float theAside so it displays nex to Main.*/
+main {
+    width: 600px;
+    height: auto;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 20px;
+    float: right;
+}
+aside {
+    width: 150px;
+    height: auto;
+    background-color: #333694;
+    float: left;
+	color: #FFFFFF
+}
+h1 {
+    color: #333694;
+    font-family: latino-urw, serif;
+font-weight: 500;
+font-style: normal;
+}
+
+p {
+	font-family: canada-type-gibson,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h3 {
+    font-size: 12pt;
+    padding: 10px;
+}
+
+img {
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.floatleft { 
+	float: left;
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150 px so they both line up with header.*/
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 800px;
+    height: 50px;
+    clear: both;
+    background-color: #333694;
+	color: #FFFFFF
+}
+article {
+    margin-bottom: 50px;
+    font-family: "my font";
+    width: auto;
+}
+nav {
+font-weight: 500;
+font-style: normal;
+    width: 447px;
+    height: 50px;
+    padding-left: 127px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-top: 38px;
+    margin-right: 24px;
+    margin-left: -62px;
+    margin-bottom: 38px;
+    width: 256px;
+    height: 40px;
+   font-family: gautreaux, sans-serif;
+font-weight: 700;
+font-style: normal;
+    font-size: 20pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 800px;
+}
+
+nav a:link {
+    color: #333694;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #5F2575;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #333694;
+	background-color: #FCD207;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+.submit_btn {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FCD207;
+    color: #333694;
+    font-size: 16px;
+   
+}
+
+.submit_btn:hover {
+	
+}
+ul li a {
+}
+ol {
+    list-style-type: disc;
+}
+ul {
+    list-style-type: circle;
+}

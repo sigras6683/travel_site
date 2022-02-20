@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://use.typekit.net/gxd3juv.css">
+<link href="site_styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="container">
+  <header>&nbsp;</header>
+  <nav>
+	<ul>
+		<li><a href="home.html">Welcome</a></li>
+		<li><a href="activities.html">Activities</a></li>
+		<li><a href="booking.html">Book A Room</a></li>
+			
+	 </ul>
+	</nav>
+  <!--Begin floated elements.-->
+  <aside><h3>Welcome to the "Request a Room" page! If you would like to plan your adventure to Charleston with us, fill out the information on this page and press "submit." If you would like to make a request about the hotel you will be staying in or mention how many people/rooms you plan having, put it in the "special requests" box. By submitting this information, we will find and book a hotel room(s) that will best suit you and your needs! </h3></aside>
+  <main>
+	<h1>Request A Room</h1>
+    <form>
+	 <p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name" size="50"></p>
+	<p>Your Email: <input name="user_email" type="email" id="user_email"></p>
+	<p>What Attraction Do You Want To Be Near? <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+		    The Market</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+		    The Battery</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+		    King Street</label>
+		  <br>
+	  </p>
+		<p>First and Last Night of Stay:</p> 
+	<input type="date"> <input type="date">
+	 
+		
+	  <p>Special Requests: <br><textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+	  <input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Submit">
+	  </form>
+	  
+  </main>
+  <!--End floated elements.-->
+  <footer>&nbsp;</footer>
+</div>
+</body>
+</html>
